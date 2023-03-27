@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Inter:wght@600&display=swap');
+.flower-card{
+    background-color: #ecccdd;
+    border-radius: 20px;
+    box-shadow: rgba(215, 154, 202, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    /* box-shadow: rgba(215, 154, 202, 0.35) 0px 5px 15px; */
+}
+
+.flower-card-img img{
+    width: 100%;
+    height: 90vh;
+    display: block;
+    border-radius: 20px 20px 0 0;
+}
+.flower-card-content{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: #bd7179;
+    letter-spacing: 0.05rem;
+}
+
+
+.flower-card-desc{
+    height: 90px;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.2rem;
+}
+
+.flower-card-price-and-buy{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flower-card-price{
+    color: #d46470;
+}
+
+.flower-card-buy-btn{
+    padding: 10px 20px;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    color: #d46470;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.flower-card-buy-btn:hover{
+    background-color: #d46470;
+    color: #eee;
+}
+
+.flower-card-buy-btn-disabled{
+    background-color: #c8868c;
+    color: #efb3d3;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: 1px solid #858484;
+    border-radius: 20px;
+    font-size: 1rem;
+}
